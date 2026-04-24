@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI-READI Poster Audio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #163154;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 34px;
+      line-height: 1.15;
+      color: #2c5caa;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.55;
+      margin: 0 0 14px;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #b8c7da;
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-top: 18px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    }
+    audio {
+      width: 100%;
+      margin-top: 12px;
+    }
+    .hint {
+      color: #42536a;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Daily Behaviors and Next-Day Glucose Control in AI-READI</h1>
+    <p>This page contains the short audio walkthrough for the poster.</p>
+    <div class="card">
+      <p><strong>Audio tour</strong></p>
+      <audio controls preload="metadata">
+        <source src="poster_audio_story.m4a" type="audio/mp4">
+        Your browser does not support embedded audio playback.
+      </audio>
+      <p class="hint">Runtime target: about 2 to 3 minutes.</p>
+    </div>
+    <div class="card">
+      <p><strong>Transcript</strong></p>
+      <p>Hello, and thanks for stopping by.</p>
+      <p>This poster summarizes how daily behaviors relate to glucose control in AI-READI, a multimodal study that combines continuous glucose monitoring with wearable activity and sleep data.</p>
+      <p>We built a participant-day dataset by synchronizing CGM, physical activity, and sleep, then derived daily outcomes such as time in range, mean glucose, variability, and nocturnal glucose. Time in range, or TIR, is the main outcome here and represents the percent of CGM readings between 70 and 180 milligrams per deciliter.</p>
+      <p>The first result is a validity check. The functional CGM curves separate by diabetes stage in the expected direction, which tells us the wearable glucose signal is biologically plausible. When we stratify those curves by fast-food frequency, the gap between healthy and pre-diabetes often widens in higher fast-food groups. That supports the idea that the survey measure is capturing something real, even though the smaller groups and missing responses should still be interpreted cautiously.</p>
+      <p>Next, the daily association plots show that activity and sleep both matter, but not in a simple one-size-fits-all way. More steps are not uniformly associated with better same-day time in range for every participant-day, and the sleep relationship with next-day TIR appears curved, with the middle range looking more favorable than very short or very long sleep.</p>
+      <p>We then looked at timing. Selected participant examples suggest that late-morning activity and afternoon activity may be followed by lower glucose later in the day. These are illustrative patterns rather than causal tests, because meal timing was not directly recorded, but they are consistent with the idea that when activity happens may be as important as how much activity occurs.</p>
+      <p>Finally, the functional sleep model asks which part of prior-day sleep is most associated with next-day glucose control. The strongest positive region appears later in the prior sleep window, suggesting that the later portion of sleep may be especially informative for better next-day time in range.</p>
+      <p>The overall message is simple. Daily behaviors matter for glucose control, but the most useful description is when and for whom they matter, not just whether an average association exists.</p>
+    </div>
+  </main>
+</body>
+</html>
